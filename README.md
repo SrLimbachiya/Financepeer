@@ -27,15 +27,34 @@ open terminal and run :
 npm install
 ```
 
+then to start frontend, use command below :
+
+```sh
+npm start
+```
+
 then after installing all dependancies, let's start backend first, use code below to start Node server
 
 ```sh
 nodemon server.js
 ```
 
-then to start frontend, use command below :
+if you face any issue using above command and getting error with nodemon please install nodemon with -g param as below : 
 
 ```sh
-npm start
+npm install -g nodemon
 ```
+using above command will fix nodemon issue.
+
+&nbsp;
+
+if somehow still nodemon is not working for you, kindly use code given below : 
+
+```sh
+node server.js
+```
+
+
+
+
 thank you for using my app 😇
